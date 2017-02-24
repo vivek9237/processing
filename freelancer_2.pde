@@ -5,9 +5,9 @@ void setup(){
 	w=width;
 	h=height;
 	background(255);
-	print(width/((255-51)*6));
+	mFactor = w/((255-51)*6);
 }
-mFactor = 0.32678 //width/((255-51)*6);
+
 float red=255;
 float green=51;
 float blue=51;
